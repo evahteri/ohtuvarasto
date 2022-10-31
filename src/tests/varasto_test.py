@@ -76,6 +76,6 @@ class TestVarasto(unittest.TestCase):
         self.assertEqual(varasto.saldo, 0.0)
 
     def test_jos_varaston_saldo_liian_iso(self):
-        varasto = Varasto(10, 5)
+        varasto = Varasto(10, 20)
 
         self.assertEqual(varasto.saldo, varasto.tilavuus)
