@@ -19,7 +19,7 @@ class Varasto:
             # virheellinen, nollataan
             self.tilavuus = 0.0
 
-    # huom: ominaisuus voidaan myös laskea.
+    # huom: ominaisuus voidaan myös laskea. Tämä rivi on aivan liian pitkä!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # Ei tarvita erillistä kenttää viela_tilaa tms.
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo
